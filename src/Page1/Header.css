@@ -1,0 +1,50 @@
+.header__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25px;
+    padding: 20px;
+    background-color: whitesmoke;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__title{
+    font-weight: 600;
+    font-size: large;
+}
+
+#pink{
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+    background-color: rgb(240, 64, 123);
+}
+
+.header__one{
+    display: flex;
+    align-items: center;
+}
+
+.header__two{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    color: black;
+    margin-right: 20px;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.drop{
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+}
+.menuicon{
+    color: blue;
+}

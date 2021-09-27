@@ -1,0 +1,60 @@
+.endbar{
+    flex: 0.19;
+    margin: 0px auto;
+    background-color: gainsboro;
+    height: 100vh;
+}
+
+.endbar__button{
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 70%;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.endbar__divone{
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: white;
+    text-align: center;
+    height: 20%;
+}
+
+.endbar__divone >h1{
+    position: relative;
+    bottom: 50px;
+    object-fit: contain;
+}
+.endbar__divone .endbar__head{
+    color: gray;
+}
+
+.endbar__divone .endbar__icon1{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 25px;
+}
+.endbar__divone .endbar__icon2{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 25px;
+}
+.endbar__divone .endbar__icon3{
+    background-color: lightgreen;
+    color: white;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    bottom: 25px;
+}

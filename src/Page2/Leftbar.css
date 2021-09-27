@@ -1,0 +1,69 @@
+.leftbar{
+    flex: 0.11;
+}
+
+
+.leftbar__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 2px; */
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.leftbar__main{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: start;
+    margin-right: 5px;
+    /* align-items: start; */
+    /* padding: px; */
+}
+.leftbar__main > .leftbar__title{
+    margin-left:20px ;
+}
+
+.pink__div{
+    background-color: rgb(243, 60, 121);
+    width: 20px;
+    height: 20px;
+    border-radius: 30%;
+}
+.pinkdiv{
+    background-color: rgb(243, 69, 127);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.additem{
+    color: blue;
+    font-weight: 700;
+}
+.additem:hover{
+    cursor: pointer;
+}
+
+.leftbar hr{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+
+.leftbar__icon{
+    color: blue;
+    font-weight: 700;
+}
+
+.icons__grey{
+    color: gray;
+}
+
+.pink__three{
+    background-color: rgb(241, 81, 135);
+    color: white;
+    width: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
